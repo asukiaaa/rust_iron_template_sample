@@ -1,0 +1,14 @@
+[package]
+name = "rust_iron_template_sample"
+version = "0.1.0"
+authors = ["Asuk Kono <asukiaaa@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+time = "0.1"
+router = "0.6"
+handlebars-iron = "0.27"
+params = "0.8"
+staticfile = "0.5"
+mount = "0.4"
+iron = "0.6.0"
