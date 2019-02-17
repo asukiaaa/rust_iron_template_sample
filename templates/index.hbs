@@ -1,10 +1,8 @@
-<html>
-  <head>
-  </head>
-  <body>
-    <div>this is root page</div>
-    <div><a href="{{hello_url}}">hello</a></div>
-    <div><a href="{{hello_again_url}}">hello again</a></div>
-    <div><a href="{{hello_again_bob_url}}">hello again Bob</a></div>
-  </body>
-</html>
+{{#*inline "body"}}
+<div>this is root page</div>
+<div><a href="{{hello_url}}">hello</a></div>
+<div><a href="{{hello_again_url}}">hello again</a></div>
+<div><a href="{{hello_again_bob_url}}">hello again Bob</a></div>
+{{/inline}}
+
+{{> (layout) }}

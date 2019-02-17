@@ -36,7 +36,9 @@ impl AfterMiddleware for ResponseTime {
 }
 
 fn create_default_data() -> HashMap<String, String> {
-    HashMap::new()
+    let mut data = HashMap::new();
+    data.insert("layout".to_string(), "layouts/default".to_string());
+    data
 }
 
 fn root_handler(req: &mut Request) -> IronResult<Response> {
