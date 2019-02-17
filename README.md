@@ -16,6 +16,7 @@ Then access http://localhost:3000 through some browser.
 MIT
 
 # References
+- [Rustのironでテンプレートで別のテンプレートを呼び出す方法](https://asukiaaa.blogspot.com/2019/02/rustiron.html)
 - [iron](https://github.com/iron/iron)
 - [handlebars-iron](https://github.com/sunng87/handlebars-iron)
 - [handlebars-iron/examples/templates/index.hbs](https://github.com/sunng87/handlebars-iron/blob/master/examples/templates/index.hbs)
